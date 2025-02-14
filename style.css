@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+html * {
+	margin: 0;
+	padding: 0;
+}
+
+/*about.html*/
+main {
+	width: 800px;
+	margin-top: 150px;
+	margin-left: 1100px;
+}
+
+main,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 25pt;
+}
+
+
+main p {
+	font-size: 20pt;
+	text-align: center;
+	border-bottom: dotted;
+}
+
+.keireki {
+	margin-top: 200px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.keireki h1 {
+	font-size: 40pt;
+}
+
+.keireki p {
+	font-size: 20pt;
+}
+
+.nitijou {
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+.nitijou img {
+	width: 350px;
+	height: 350px;
+	margin-bottom: 150px;
+}
+
+/*skill.html*/
+article .skill h2 {
+	margin-left: 1200px;
+	margin-top: 100px;
+}
+
+.skill img {
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+}
+
+article img {
+	width: 300px;
+	height: auto;
+}
+
+article p {
+	margin-top: 30px;
+	padding-left: 50px;
+	font-size: 20pt;
+}
+
+.ginou {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+.ginou>* {
+	width: 30%;
+}
+
+.photoshop,
+.illustrator {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+/*works.html*/
+.seisakuhin {
+	margin-left: 300px;
+	margin-top: 100px;
+}
+
+.seisakuhin h1,
+h2,
+h3 {
+	font-size: 30pt;
+}
+
+.seisakuhin p {
+	font-size: 20pt;
+	line-height: 40pt;
+}
+
+.moisture {
+	margin-top: 100px;
+}
+
+.moisture img {
+	width: 500px;
+	margin-left: 200px;
+}
+
+.website {
+	margin-top: 100px;
+}
+
+.website span {
+	color: #008000;
+	padding-left: 300px;
+}
+
+.website img {
+	margin-top: 100px;
+	margin-bottom: 150px;
+	padding-left: 100px;
+}
+
+/*contact.html*/
+.otoiawase .contact h4 {
+	margin-left: 800px;
+	margin-top: 100px;
+}
+
+.contact img {
+	margin-left: 1000px;
+	float: right;
+}
+
+.renraku {
+	margin-left: 700px;
+}
+
+.otoiawase img {
+	margin-left: 300px;
+}
