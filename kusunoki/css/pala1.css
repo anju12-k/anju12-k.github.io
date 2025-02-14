@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#bg1 {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/bg2.svg) repeat 0 0 scroll;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  z-index: -1000;
+  overflow: hidden;
+
+}
+
+#bg2 {
+  height: 200vh;
+  width: 100vw;
+  background: url(../images/bg1.svg) repeat 0 0 scroll;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  z-index: -1002;
+  background-color: #969e93;
+  overflow: hidden;
+}
+
+#bg3 {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/bg3.svg) repeat 0 0 scroll;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+@media(min-width:768px) {
+
+  #bg1,
+  #bg2 {
+    background-size: 100%;
+  }
+}
