@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>parallax by skrollr</title>
+<style>
+
+div {
+  padding:5em;
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+
+body {
+  overflow-x:hidden;
+}
+#bg1 {
+  background: url(../images/bubbles.png) repeat 0 0 scroll;
+}
+#bg2 {
+  background: url(../images/bubbles2.png) repeat 0 0 scroll;
+}
+</style>
+</head>
+<body>
+<div
+id="bg1"
+data-0="background-position:0px 0px;"
+data-2000="background-position:50px -1000px;">手前に見える
+</div>
+<div
+id="bg2"
+data-0="background-position:0px 0px;"
+data-2000="background-position:10px -700px;"><br>奥に見える
+</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
+<script>
+var s = skrollr.init();
+</script>
+</body>
+</html>
+
