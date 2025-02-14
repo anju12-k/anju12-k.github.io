@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+html * {
+	margin: 0;
+	padding: 0;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*共通設定*/
+.hero img {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	background-image: url(images/hekiga.jpg);
+	font-family: "M PLUS 1p", serif;
+}
+
+header {
+	height: 125px;
+	background-color: pink;
+	opacity: 0.7;
+	display: flex;
+
+}
+
+.header img {
+	width: 200px;
+	padding-top: 7px;
+	margin-left: 70px;
+}
+
+.header h1 {
+	width: 500px;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 30pt;
+
+}
+
+
+nav ul {
+	list-style-type: none;
+	width: 900px;
+	padding-top: 50px;
+	padding-left: 400px;
+	overflow: hidden;
+}
+
+nav ul li {
+	width: 200px;
+	float: left;
+	font-size: 20pt;
+}
+
+
+
+nav ul li #nav_about {
+	background-image: url(../images/aomaru.png);
+}
+
+/*自己紹介*/
+
+.about h1 {
+	width: 400px;
+	margin-left: 400px;
+	margin-top: 100px;
+	padding: 5px;
+	font-family: "Bitter", serif;
+	font-size: 60px;
+	line-height: 60px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px 3px 7px 20px;
+	text-align: center;
+
+}
+
+/*リンク設定*/
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: #008000;
+}
+
+a:hover {
+	color: #4169e1;
+}
+
+a: active {
+	color: #ff6347;
+}
+
+.about img {
+	float: left;
+	margin-top: 70px;
+	margin-left: 150px;
+}
+
+.about-container {
+	margin-left: 700px;
+	display: grid;
+	font-size: 20pt;
+	text-align: center;
+}
+
+.about-container>* {
+	grid-area: 1/1;
+
+}
+
+.about-container p {
+	align-self: center;
+	line-height: 50pt;
+	padding-left: 250px;
+}
+
+
+
+/*能力設定*/
+.skill h2 {
+	width: 400px;
+	margin-left: 1400px;
+	margin-top: 200px;
+	padding: 5px;
+	font-family: "Bitter", serif;
+	font-size: 60px;
+	line-height: 60px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px 3px 7px 20px;
+	text-align: center;
+}
+
+.skill-container {
+	width: 600px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 100px;
+	display: grid;
+	font-size: 20pt;
+}
+
+.skill-container>* {
+	grid-area: 1/1;
+}
+
+.skill-container p {
+	align-self: center;
+	line-height: 50pt;
+	padding-left: 300px;
+}
+
+.image {
+	float: right;
+	margin-right: 220px;
+	margin-top: 150px;
+}
+
+.skill {
+	overflow: hidden;
+}
+
+/*制作品設定*/
+.works h3 {
+	width: 400px;
+	margin-left: 400px;
+	margin-top: 100px;
+	padding: 5px;
+	font-family: "Bitter", serif;
+	font-size: 60px;
+	line-height: 60px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px 3px 7px 20px;
+	text-align: center;
+}
+
+.works img {
+	margin-top: 150px;
+	margin-left: 200px;
+
+}
+
+.works-container {
+	float: right;
+	display: grid;
+	font-size: 20pt;
+	text-align: center;
+}
+
+.works-container>* {
+	grid-area: 1/1;
+
+}
+
+.works-container p {
+	align-self: center;
+	line-height: 50pt;
+	padding-top: 150px;
+	padding-left: 200px;
+}
+
+/*お問い合わせ設定*/
+.contact h4 {
+	width: 400px;
+	margin-left: 750px;
+	margin-top: 250px;
+	padding: 5px;
+	font-family: "Bitter", serif;
+	font-size: 60px;
+	line-height: 60px;
+	border-color: black;
+	border-width: 1px 3px 7px 20px;
+	border-style: solid;
+	text-align: center;
+}
+
+.kazari {
+	margin-left: 300px;
+}
+
+/*フッター*/
+footer {
+	padding-top: 70px;
+	height: 125px;
+	background-color: pink;
+	opacity: 0.7;
+	text-align: center;
+	font-size: 20pt;
+}
+
+footer img {
+	float: right;
+}
